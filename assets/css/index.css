@@ -116,13 +116,6 @@
 }
 
 @media (max-width: 768px) {
-	/*nav*/
-	#bs-example-navbar-collapse-1 {
-		margin-left: -15px;
-	}
-	.container-fluid {
-		padding-left: 15px;
-	}
 	/*banner*/
 	.banner {
 		background: url(../images/banner_mobile.png);
