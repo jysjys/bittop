@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Ico</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/common.css">
     <link rel="stylesheet" href="../assets/css/icoListDetail.css">
     <style>
         .select-header {
@@ -18,7 +20,8 @@
     </style>
 </head>
 <body>
-<div class="m-main-container ">
+<Header></Header>
+<div class="m-main-container">
     <div class="main-center-right-section" style="width: 100%">
         <p class="select-header">
             Select a reward
@@ -75,5 +78,13 @@
         </ul>
     </div>
 </div>
+<Footer class="footer">
+    <h1>Copyright © 2018 MobiPromo Ltd.</h1>
+</Footer>
+<script type="text/javascript" src='../assets/js/jquery-3.2.1.min.js'></script>
+<script type="text/javascript" src='../assets/js/bootstrap.min.js'></script>
+<script type="text/javascript">
+    $('Header').load('../commons/header.html .navbar')
+</script>
 </body>
 </html>
