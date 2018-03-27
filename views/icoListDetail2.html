@@ -46,6 +46,8 @@
                 <p  style="margin-top: 16px;margin-bottom: 24px" class="color-Opcity54 fontSize14">This project will only be funded if it reaches its goal by Sat, March 31 2018 9:44 PM AWST.</p>
 
                 <button class="theme-Bgcolor readme-btn">Participate</button>
+                <button class="theme-Bgcolor m-readme-btn"><a href="./partcipateM.html">Participate</a></button>
+
             </div>
         </div>
     </div>
@@ -150,6 +152,22 @@
     </div>
 </div>
 </div>
+<div class="model-wrapper">
+    <div class="model-confirm-dialog text-center">
+        <i class="close-icon"><img src="../assets/images/Close.svg" alt=""></i>
+        <h2 class="fontSize24 color-Opcity87">Precautions</h2>
+        <p class="fontSize14 color-Opcity87 text-left">
+            1. When selecting investment, choose the amount of investment according to your risk tolerance;<br/>
+            <br/>
+            2. After acknowledging that the deposit has been paid, there will be a three-day repentance period that exceeds the repentance period, and there are legitimate reasons for applying for a withdrawal;<br/>
+            <br/>
+            3. Always use the recommended wallet (imToken wallet) to invest the ETH invested in the crowdfunding website, pay attention to keep the corresponding transaction records, and use this as a proof; if you make money by yourself or follow the investment, you will bear the responsibility.<br/>
+            <br/>
+            4. The post-investment department of the crowdfunding website will assist the lead investee in urging the project funders to implement the financing commitments and the investment agreement agreement. In the event of a dispute, the parties will promptly organize and assist the investor in coordinating or litigating;
+        </p>
+        <button class=""><a href="./qrCodeScan.html">ACCEPT AND CONTINUE</a></button>
+    </div>
+</div>
 <Footer class="footer">
     <h1>Copyright © 2018 MobiPromo Ltd.</h1>
 </Footer>
@@ -157,6 +175,12 @@
 <script type="text/javascript" src='../assets/js/bootstrap.min.js'></script>
 <script type="text/javascript">
     $('Header').load('../commons/header.html .navbar')
+    $('.readme-btn').click(function () {
+        $('.model-wrapper').toggle()
+    })
+    $('.close-icon').click(function () {
+        $('.model-wrapper').toggle()
+    })
 </script>
 </body>
 </html>

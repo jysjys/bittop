@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Detail</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/icoListDetail.css">
+    <link rel="stylesheet" href="../assets/css/qrCodeScan.css">
+    <style>
+        body {
+            position: relative;
+        }
+        .footer {
+            position: absolute;
+            bottom: -90px;
+        }
+    </style>
+</head>
+<body>
+<Header></Header>
+
+<div class="qrCode-main-container">
+   <div class="text-center inside-main-container">
+       <h2 class="fontSize24 color-Opcity87">CONTRACT ADDRESS</h2>
+       <p class="fontSize14 color-Opcity54 address-crypto" style="margin-top: 8px;">0x61DF287BAc17a2daFe20Bb2508673e3cd97A832D</p>
+       <div class="qrCode-container">
+       </div>
+       <div class="qrcodeImg-wrapper">
+           <img src="" alt="" class="qrcodeImg">
+       </div>
+
+
+       <div class="flex flex-pack-center">
+           <img src="../assets/images/fullscreen.svg" alt="">
+           <p class="fontSize12 color-Opcity54" style="line-height: 24px;margin-left: 8px;">Recommend using imToken wallet to pay</p>
+       </div>
+       <button class="coppyAddress-btn fontSize14 color-Opcity54">COPY ADDRESS</button>
+   </div>
+
+</div>
+<div class="copy-success-tip">
+    <img src="../assets/images/success_icon.svg" alt="">
+    <p>复制成功</p>
+</div>
+<Footer class="footer">
+    <h1>Copyright © 2018 MobiPromo Ltd.</h1>
+</Footer>
+<script type="text/javascript" src='../assets/js/jquery-3.2.1.min.js'></script>
+<script type="text/javascript" src='../assets/js/bootstrap.min.js'></script>
+<script type="text/javascript" src='../assets/js/jquery.qrcode.min.js'></script>
+<script type="text/javascript" src="../assets/js/qrCodeScan.js"></script>
+<script type="text/javascript">
+    $('Header').load('../commons/header.html .navbar')
+</script>
+</body>
+</html>
